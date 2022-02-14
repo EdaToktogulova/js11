@@ -15,4 +15,9 @@
 
 document.querySelector('div').addEventListener('click', function(event) {
    event.preventDefault();
+   this.style.width = "50px";
+   this.style.height = "50px";
+   this.style.color =  `rgb(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255})`;
+   
 });
+
