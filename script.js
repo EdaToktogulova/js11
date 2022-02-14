@@ -20,5 +20,16 @@ document.querySelector('div').addEventListener('click', function(event) {
    div.style.background = `rgb(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255})`;
 });
 
+document.body.addEventListener('click', function(event) {
+   let div = document.createElement('div');
+   document.body.append(div);
+
+   let size = (Math.random() * 50).toFixed(0);
+   let half = size / 2;
+
+});
 
 
+let list = [
+   'Apple', 'Banana', 'Cherry'
+];
