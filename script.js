@@ -15,4 +15,4 @@
 
 document.querySelector('div').addEventListener('click', function(event) {
    event.preventDefault();
-})
+});
