@@ -28,4 +28,3 @@ document.body.addEventListener('click', function(event) {
 let list = [
    'Apple', 'Banana', 'Cherry'
 ];
-let 
